@@ -14,14 +14,14 @@ We limited the data set to players who played at least 41 games and 10 MPG.
 
 DAVIS stands for defensive average value below ideal stats. We used the following stats for DAVIS:
 
-- Steals
-- Blocks
-- Steal %
-- Block %
-- Defensive field goals attempted (DFGA)
+- STL
+- BLK
+- STL%
+- BLK%
+- DFGA
 - DWS
 - DBPM
-- Defensive rating (DRTG)
+- DRTG
 
 We normalized each stat between 0 and 1 to avoid stats having different weights on DAVIS (i.e. DRTG has a higher range than STL, so without normalization, we would naturally weight it more).
 
