@@ -31,5 +31,4 @@ After normalizing, we took the distance between each player's stats and the best
 2. Manhattan distance
 3. Wasserstein distance
 
-The closer a player is to the best possible stats, the better he is as a defender. However, being closer to the best possible stats means the player's distance is lower. So, after calculating this distance, we inverted it such that higher is better (and the best possible DAVIS would be 1). Then, we averaged the distance achieved from these 3 metrics.
-
+The closer a player is to the best possible stats, the better he is as a defender. However, being closer to the best possible stats means the player's distance is lower. So, after calculating distance, we inverted the results such that a higher score is better (and the best possible DAVIS would be 1). Then, we averaged the results from these 3 metrics. This gave us our final DAVIS score.
